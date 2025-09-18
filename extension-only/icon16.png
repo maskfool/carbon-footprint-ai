@@ -1,0 +1,8 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="20" fill="#2d5a27"/>
+  <path d="M64 20C40 20 20 40 20 64C20 88 40 108 64 108C88 108 108 88 108 64C108 40 88 20 64 20Z" fill="#4a7c59"/>
+  <path d="M64 30C46 30 30 46 30 64C30 82 46 98 64 98C82 98 98 82 98 64C98 46 82 30 64 30Z" fill="#6ba86b"/>
+  <path d="M64 40C52 40 40 52 40 64C40 76 52 88 64 88C76 88 88 76 88 64C88 52 76 40 64 40Z" fill="#8bc34a"/>
+  <circle cx="64" cy="64" r="20" fill="#aed581"/>
+  <text x="64" y="70" text-anchor="middle" fill="#2d5a27" font-family="Arial, sans-serif" font-size="24" font-weight="bold">🌱</text>
+</svg>
