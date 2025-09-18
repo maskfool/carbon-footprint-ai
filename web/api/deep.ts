@@ -17,9 +17,7 @@ interface DeepResponse {
   latencyMs: number
 }
 
-export const config = {
-  runtime: 'nodejs18.x',
-}
+// Runtime will be auto-detected by Vercel
 
 export default async function handler(req: NextRequest) {
   const startTime = Date.now()

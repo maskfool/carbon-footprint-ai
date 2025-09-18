@@ -1,13 +1,5 @@
 {
   "outputDirectory": "public",
-  "functions": {
-    "api/tips.ts": {
-      "runtime": "nodejs18.x"
-    },
-    "api/deep.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "headers": [
     {
       "source": "/api/(.*)",

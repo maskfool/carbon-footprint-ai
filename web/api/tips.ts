@@ -21,9 +21,7 @@ interface TipsResponse {
 const cache = new Map<string, { response: TipsResponse; timestamp: number }>()
 const CACHE_TTL = 30 * 60 * 1000 // 30 minutes
 
-export const config = {
-  runtime: 'nodejs18.x',
-}
+// Runtime will be auto-detected by Vercel
 
 export default async function handler(req: NextRequest) {
   const startTime = Date.now()
