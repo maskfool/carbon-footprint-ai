@@ -18,7 +18,7 @@ interface DeepResponse {
 }
 
 export const config = {
-  runtime: 'nodejs',
+  runtime: 'nodejs18.x',
 }
 
 export default async function handler(req: NextRequest) {

@@ -22,7 +22,7 @@ const cache = new Map<string, { response: TipsResponse; timestamp: number }>()
 const CACHE_TTL = 30 * 60 * 1000 // 30 minutes
 
 export const config = {
-  runtime: 'nodejs',
+  runtime: 'nodejs18.x',
 }
 
 export default async function handler(req: NextRequest) {
