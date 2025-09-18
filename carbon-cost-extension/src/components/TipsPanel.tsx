@@ -22,7 +22,7 @@ const TipsPanel: React.FC<TipsPanelProps> = ({ stats, privacyEnabled }) => {
     setError(null)
 
     try {
-      const response = await fetch('http://localhost:3000/api/tips', {
+        const response = await fetch('https://carbon-footprint-ai-nu.vercel.app/api/tips', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -58,7 +58,7 @@ const TipsPanel: React.FC<TipsPanelProps> = ({ stats, privacyEnabled }) => {
     setError(null)
 
     try {
-      const response = await fetch('http://localhost:3000/api/deep', {
+        const response = await fetch('https://carbon-footprint-ai-nu.vercel.app/api/deep', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
