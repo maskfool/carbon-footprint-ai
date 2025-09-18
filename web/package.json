@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vercel dev",
-    "build": "echo 'No build step needed for Vercel'",
+    "build": "echo 'Build completed - using public directory'",
     "deploy": "vercel --prod"
   },
   "dependencies": {
