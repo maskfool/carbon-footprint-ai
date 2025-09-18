@@ -1,0 +1,23 @@
+{
+  "name": "carbon-cost-api",
+  "version": "1.0.0",
+  "description": "Vercel API for Carbon Cost Extension",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step needed for Vercel'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^0.0.0",
+    "ai": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}

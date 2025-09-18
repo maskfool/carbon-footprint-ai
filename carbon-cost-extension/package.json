@@ -1,0 +1,32 @@
+{
+  "name": "carbon-cost-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension to measure and reduce web carbon footprint",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:extension": "node scripts/build-extension.js",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "zip": "node scripts/build-zip.js",
+    "build:all": "npm run build:extension && npm run zip"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.254",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/ui": "^1.0.4",
+    "archiver": "^6.0.1",
+    "jsdom": "^27.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vitest": "^1.0.4"
+  }
+}
